@@ -6,7 +6,7 @@ for course ME5406 deep learning for robotics
 * [Packages](#packages)
 
 ## General info
-First project focuses on the classic frozen lake problem. There are two variabitons to the problem:
+First project focuses on the classic frozen lake problem. There are two variations to the problem:
 * standard 4x4 map
 * random 10x10 map with 25% holes
 
