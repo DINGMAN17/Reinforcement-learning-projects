@@ -19,4 +19,5 @@ Three model free reinforcement techniques are tested:
 Project uses Python:
 * Python version: 3.6.12
 * Numpy version: 1.19.1
+* Matplotlib version: 3.3.1
 * OpenAI gym version: 0.17.3
