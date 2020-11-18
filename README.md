@@ -1,4 +1,4 @@
-# Reinforcement-learning-projects
+# Deep reinforcement learning project 2
 for course ME5406 deep learning for robotics 
 
 ## Table of contents
@@ -6,14 +6,14 @@ for course ME5406 deep learning for robotics
 * [Packages](#packages)
 
 ## General info
-First project focuses on the classic frozen lake problem. There are two variations to the problem:
-* standard 4x4 map
-* random 10x10 map with 25% holes
+* arm_gym.py: defines the environment
+* arm_unittests.py: unit tests for environment
+* NN.py: DDPG implementation
+* requirements.txt: required packages
+* Train_test.ipynb: train and test the model
 
-Three model free reinforcement techniques are tested:
-* first-visit Monte Carlo withour exploring start
-* SARSA with epsilon-greedy selection
-* Q-learning with epsilon-greedy selection
+To train a new model: change the parameters in the Train_test.ipynb
+To test the existing model: run the last two cells of Train_test.ipynb
 	
 ## Packages
 Project uses Python:
@@ -21,3 +21,5 @@ Project uses Python:
 * Numpy version: 1.19.1
 * Matplotlib version: 3.3.1
 * OpenAI gym version: 0.17.3
+* Tensorflow=2.0.0
+* Tensorboard=2.3.0
