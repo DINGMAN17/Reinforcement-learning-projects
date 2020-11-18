@@ -13,6 +13,7 @@ for course ME5406 deep learning for robotics
 * Train_test.ipynb: train and test the model
 
 To train a new model: change the parameters in the Train_test.ipynb
+
 To test the existing model: run the last two cells of Train_test.ipynb
 	
 ## Packages
